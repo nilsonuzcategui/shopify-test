@@ -1,7 +1,7 @@
 {
   "sections": {
     "nilson":{
-      
+      "type": "nilson"
     },
     "image_banner": {
       "type": "image-banner",
