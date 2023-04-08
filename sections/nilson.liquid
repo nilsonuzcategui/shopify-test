@@ -52,7 +52,7 @@
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aliquam,
               sequi cumque saepe cum officiis fugiat neque quia nisi cupiditate nulla. 
-                                                        Earum enim ipsum veniam, hic at facilis commodi aperiam.
+                                                                      Earum enim ipsum veniam, hic at facilis commodi aperiam.
             </p>
           </div>
           <div>
@@ -73,7 +73,7 @@
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aliquam,
               sequi cumque saepe cum officiis fugiat neque quia nisi cupiditate nulla. 
-                                                        Earum enim ipsum veniam, hic at facilis commodi aperiam.
+                                                                      Earum enim ipsum veniam, hic at facilis commodi aperiam.
             </p>
           </div>
           <div>
@@ -94,7 +94,7 @@
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aliquam,
               sequi cumque saepe cum officiis fugiat neque quia nisi cupiditate nulla. 
-                                                        Earum enim ipsum veniam, hic at facilis commodi aperiam.
+                                                                      Earum enim ipsum veniam, hic at facilis commodi aperiam.
             </p>
           </div>
           <div>
@@ -114,28 +114,7 @@
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aliquam,
               sequi cumque saepe cum officiis fugiat neque quia nisi cupiditate nulla. 
-                                                        Earum enim ipsum veniam, hic at facilis commodi aperiam.
-            </p>
-          </div>
-          <div>
-            <p>
-              <b>Nilson Uzcátegui</b>
-            </p>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="swiper-slide">
-        <div>
-          <div>
-            <img src="{{ 'perrito.jpg' | asset_img_url }}" width="150px">
-          </div>
-          <div>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aliquam,
-              sequi cumque saepe cum officiis fugiat neque quia nisi cupiditate nulla. 
-                                                        Earum enim ipsum veniam, hic at facilis commodi aperiam.
+                                                                      Earum enim ipsum veniam, hic at facilis commodi aperiam.
             </p>
           </div>
           <div>
@@ -156,7 +135,28 @@
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aliquam,
               sequi cumque saepe cum officiis fugiat neque quia nisi cupiditate nulla. 
-                                                        Earum enim ipsum veniam, hic at facilis commodi aperiam.
+                                                                      Earum enim ipsum veniam, hic at facilis commodi aperiam.
+            </p>
+          </div>
+          <div>
+            <p>
+              <b>Nilson Uzcátegui</b>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="swiper-slide">
+        <div>
+          <div>
+            <img src="{{ 'perrito.jpg' | asset_img_url }}" width="150px">
+          </div>
+          <div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aliquam,
+              sequi cumque saepe cum officiis fugiat neque quia nisi cupiditate nulla. 
+                                                                      Earum enim ipsum veniam, hic at facilis commodi aperiam.
             </p>
           </div>
           <div>
@@ -184,6 +184,24 @@
     pagination: {
       el: ".swiper-pagination",
       clickable: true
+    },
+    breakpoints: { // when window width is >= 320px
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 10
+      },
+
+// when window width is >= 480px
+      480: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+
+// when window width is >= 640px
+      640: {
+        slidesPerView: 3,
+        spaceBetween: 30
+      }
     }
   });
 </script>
