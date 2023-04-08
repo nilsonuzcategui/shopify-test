@@ -8,10 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "cambiando el texto",
-            "text_alignment": "center",
-            "color_scheme": "background-1",
-            "link": ""
+            "text_alignment": "center"
           }
         }
       },
