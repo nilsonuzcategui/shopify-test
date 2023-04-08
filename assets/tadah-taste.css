@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ /* padre de todas las seccines*/
+ 
+.father-all {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ /**********************************/
+
+
+/* seccion info taste*/
+
+.father-all .container-info-taste {
+    padding: 67px 26px 26px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 251px;
+    justify-content: center;
+    background-color:white;
+ }
+
+ .father-all .title-taste {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+    color: #2E190F;
+    margin-bottom: 20px;
+ }
+
+ .father-all .info-taste {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+    max-width: 666px;
+ }
+/**********************************/
+
+
+@media (max-width:649px) {
+
+    /* seccion taste*/
+
+    .father-all .title-taste {
+        line-height: 36.57px;
+        font-size: 30px;
+     }
+
+     .father-all .container-info-taste {
+        padding: 46px 26px 54px 30px;
+    }
+
+     /**********************************/
+
+}
+
+@media (max-width:400px) {
+
+     /* seccion taste*/
+
+    .father-all .info-taste {
+        font-size: 12px;
+    }
+
+    .father-all .title-taste {
+        line-height: 25px;
+        font-size: 25px;
+    }
+
+     /**********************************/
+
+}
+

@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ /* padre de todas las seccines*/
+ 
+.father-all {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Seccion de imagen y texto fresh*/
+
+.father-all .section-img-text-fresh{
+    width: 100%;
+    height: 569px;
+    display: flex;
+    padding-top: 53px;
+    background-color: #FFFFFF;
+}
+
+.father-all .container-img-fresh, .conatiner-title-background {
+    width: 50%;
+}
+
+.father-all .img-fresh {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.conatiner-title-background {
+    background-image: url(img/Frame.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.father-all .container-text-fresh {
+    padding: 84px 120px 0 104px;
+}
+
+.father-all .title-fresh {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    color: #2E190F;
+    margin-bottom: 35px;
+
+}
+
+.father-all .text-fresh {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+
+}
+
+/**********************************/
+
+
+@media (max-width:768px) {
+
+     /*Seccion de imagen y texto fresh*/
+
+     .father-all .title-fresh {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .conatiner-title-background {
+        background-image: none;
+    }
+     /**********************************/
+    
+}
+
+
+@media (max-width:649px) {
+
+    /*Seccion de imagen y texto fresh*/
+
+    .father-all .section-img-text-fresh {
+        display: block;
+    }
+
+    .father-all .container-img-fresh, .conatiner-title-background {
+        width: 100%;
+    }
+
+    .father-all .section-img-text-fresh {
+        height: inherit;
+        padding-top: 48px;
+    }
+
+    .father-all .container-img-fresh {
+        height: 427px;
+    }
+
+    .father-all .container-text-fresh {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .father-all .title-fresh, .text-fresh {
+        text-align: center;
+    }
+
+    .father-all .container-text-fresh {
+        padding: 49px 24px 19.5px 24px;
+    }
+
+    .father-all .title-fresh {
+        line-height: 36.57px;
+    }
+
+    /**********************************/ 
+}
+
+@media (max-width:1235px) {
+
+
+    /*Seccion de imagen y texto fresh*/
+
+    .father-all .container-text-fresh {
+        padding: 15px 43px 40px 43px;
+    }
+
+    .father-all .title-fresh {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 18px;
+    }
+    /**********************************/
+}

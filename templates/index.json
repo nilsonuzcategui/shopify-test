@@ -1,8 +1,32 @@
 {
   "sections": {
-    "nilson":{
-      "type": "nilson"
+
+
+    "tadah-hero" : {
+      "type": "tadah-hero"
     },
+
+
+    "tadah-taste" : {
+      "type": "tadah-taste"
+    },
+
+    "tadah-ingredients" : {
+      "type": "tadah-ingredients"
+    },
+
+    "tadah-fresh" : {
+      "type": "tadah-fresh"
+    },
+
+    "tadah-tasty" : {
+      "type": "tadah-tasty"
+    },
+
+    "tadah-variaty" : {
+      "type": "tadah-variaty"
+    },
+
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -203,7 +227,12 @@
     }
   },
   "order": [
-    "nilson",
+    "tadah-hero",
+    "tadah-taste",
+    "tadah-ingredients",
+    "tadah-fresh",
+    "tadah-tasty",
+    "tadah-variaty",
     "image_banner",
     "rich_text",
     "featured_collection",

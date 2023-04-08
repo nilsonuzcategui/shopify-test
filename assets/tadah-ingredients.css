@@ -1,0 +1,205 @@
+/* seccion ingredientes y sabores*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ /* padre de todas las seccines*/
+ 
+.father-all {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ /**********************************/
+ 
+.father-all .container-section-ingredients {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.father-all .ingredients-colors{
+    width: 25%;
+    padding-bottom: 30px;
+    height: 100%;
+}
+
+.father-all .ingredients-colors img{
+    width: 100%;
+    height: 388px;
+    max-width: 335px;
+    object-fit: contain;
+}
+
+.father-all .title-flavor {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30.23px;
+
+}
+
+.father-all .button-flavor {
+    max-width: 275px;
+    height: 50px;
+    background: #2E190F;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.father-all .title-button-flavor {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.title-flavor, .button-flavor {
+    padding: 0  10px 0 10px;
+} 
+
+.father-all .f-yellow {
+    background: #F7D633;
+}
+
+.father-all .f-red{
+    background: #E12843;
+}
+
+.father-all .f-blue {
+    background: #72CEE8;
+}
+
+.father-all .f-orange {
+    background: #F47D34;
+}
+
+.container-img-ingredients {
+    padding: 38px 13px 24.77px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/**********************************/
+
+@media (max-width:1235px) {
+
+    
+    /* seccion ingredientes colores*/
+
+    .father-all .button-flavor {
+        max-width: 200px;
+    }
+
+    .father-all .title-flavor {
+        font-size: 20px;
+    }
+    /**********************************/
+
+}
+
+@media (max-width:1042px) {
+
+    /* seccion ingredientes y sabores*/
+
+     .father-all .ingredients-colors {
+        width: 50%;
+        padding-bottom: 30px;
+    }
+    /**********************************/
+
+}
+
+@media (max-width:649px) {
+
+
+     /* seccion ingredientes y sabores*/
+
+     .father-all .container-section-ingredients {
+        min-height: 430px;
+    }
+
+    .father-all .ingredients-colors img {
+        height: 229px;
+        max-width: 200px;
+    }
+
+    .container-img-ingredients {
+        padding: 23px 15.14px 18px 17.12;
+    }
+
+    .father-all .title-flavor {
+        line-height: 25px;
+    }
+
+    .father-all .title-flavor {
+        margin-bottom: 18px;
+    }
+
+    .father-all .button-flavor {
+        max-width: 162.48px;
+        height: 59.44px;
+    }
+
+    .father-all .title-flavor {
+        font-size: 16px;
+    }
+
+    /**********************************/
+
+}
+
+@media (max-width:428px) {
+
+    /* seccion ingredientes y sabores*/
+
+
+    .father-all .title-flavor {
+        font-size: 20px;
+    }
+
+    .father-all .ingredients-colors {
+        width: 50%;
+        padding-bottom: 36px;
+    }
+
+    /**********************************/
+}
+
+@media (max-width:400px) {
+
+
+     /**********************************/
+
+     /* seccion ingredientes y sabores*/
+
+     .father-all .title-flavor {
+        font-size: 17px;
+    }
+
+    .father-all .title-button-flavor {
+        font-size: 13px;
+    }
+
+    .father-all .button-flavor {
+        max-width: 136.48px;
+        height: 49.44px;
+    }
+
+    /**********************************/
+
+}
