@@ -1,23 +1,90 @@
-{{' tadah-variaty.css' | asset_url | stylesheet_tag }}
+{{ ' tadah-variaty.css' | asset_url | stylesheet_tag }}
 
 
 <div class="father-all">
-    <div class="container-all">
-        <div class="section-img-text-variety">
-            <div class="container-img-variety">
-                <img src="https://cdn.shopify.com/s/files/1/0740/4139/3426/files/Wraps_Image.png?v=1680988669" alt="" class="img-variety">
-            </div>
-            <div class="container-info-variety">
-                <div class="title-variety">
-                    Variety Pack
-                </div>
-                <div class="info-variety">
-                    Sometimes you open the fridge for the fifth time in a row and find yourself staring into the abyss of your fully stocked shelves. You’re not bored, you’re just tired of eating boring food. You're also probably indecisive like us, which is why you should order ALL the flavors we have.
-                </div>
-                <div class="button-variety">
-                    <a href="" class="text-buttonV">Try the variety pack</a>
-                </div>
-            </div>
+  <div class="container-all">
+    <div class="section-img-text-variety">
+      <div class="container-img-variety">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0740/4139/3426/files/Wraps_Image.png?v=1680988669"
+          alt=""
+          class="img-variety">
+      </div>
+      <div class="container-info-variety">
+        <div class="title-variety">
+          Variety Pack
         </div>
+        <div class="info-variety">
+          Sometimes you open the fridge for the fifth time in a row and find yourself staring into the abyss of your fully stocked shelves. You’re not bored, you’re just tired of eating boring food. You're also probably indecisive like us, which is why you should order ALL the flavors we have.
+        </div>
+        <div class="button-variety">
+          <a href="" class="text-buttonV">Try the variety pack</a>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
+
+<style>
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-slide {
+    width: 60%;
+  }
+
+  .swiper-slide:nth-child(2n) {
+    width: 40%;
+  }
+
+  .swiper-slide:nth-child(3n) {
+    width: 20%;
+  }
+</style>
+
+<!-- Swiper -->
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    <div class="swiper-slide">Slide 4</div>
+    <div class="swiper-slide">Slide 5</div>
+    <div class="swiper-slide">Slide 6</div>
+    <div class="swiper-slide">Slide 7</div>
+    <div class="swiper-slide">Slide 8</div>
+    <div class="swiper-slide">Slide 9</div>
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: "auto",
+    centeredSlides: true,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    }
+  });
+</script>
