@@ -5,23 +5,129 @@
     display: flex;
     width: 100%;
 }
+.container-text-same{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.title-same {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.info-same {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    padding: 0 138px;
+}
 
 .father-all .container-img-same, .container-text-same {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .father-all .img-same{
     width: 100%;
 }
-
-.father-all  .container-img-same .color-blue {
+ .color-blue {
     background-color: #72CEE8;
 }
 
-.father-all  .container-text-same .text-rosa {
-    background-color: #E12843;
+
+.color-yellow {
+    background-color: #F7D633;
+}
+
+.text-orange{
+    background: #F47D34;
 }
 
 .father-all  .section-text-img-colors {
     width: 100%;
+}
+
+.last-frame {
+    background-image: url(https://cdn.shopify.com/s/files/1/0740/4139/3426/files/wood_bg_1_1.png?v=1681007628);
+}
+
+.autor-last-frame {
+    font-size: 17px;
+    font-weight: 800;
+    margin-top: 16px;
+}
+
+.text-rosa {
+    background-color: #E12843;
+}
+
+.img-last-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-last-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-yellow{
+    flex-direction: row-reverse;
+}
+
+.img-last-frame{
+    padding: 134px 0;
+}
+
+.title-same {
+    padding: 0 30px;
+    margin-top: 30px;
+}
+
+
+
+@media (max-width: 1050px){
+    .info-same {
+        padding: 0 38px;
+    }
+}
+
+@media (max-width:1000px) {
+    .img-last-frame {
+        padding: 95px 0;
+    }
+}
+
+
+@media (max-width:853px){
+    .info-same {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+
+
+@media (max-width:733px){
+    .section-text-img-colors {
+        display: block;
+    }
+
+    .father-all .container-img-same, .container-text-same {
+        width: 100%;
+    }
+
 }

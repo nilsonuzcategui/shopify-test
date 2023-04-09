@@ -5,14 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
- /* padre de todas las seccines*/
- 
-.father-all {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-}
 
- /**********************************/
 
 /*Section chick*/
 .father-all .section-chick {
@@ -39,16 +32,21 @@
 
 .coment-text {
     margin-bottom: 20px;
-}
-
-.autor {
     font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 400;
     font-size: 25px;
     line-height: 35px;
     text-align: center;
-    margin-bottom: 30px;
+}
 
+.autor {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 30px;
 }
  .sliderComment{
     width: 100%;
@@ -82,4 +80,31 @@
   }
 
 
+
+
 /**********************************/
+
+@media (max-width:980px) {
+
+  /**/
+
+  .title-chick {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+   /**********************************/
+
+}
+
+@media (max-width:428px) {
+
+    
+  /**/
+
+  .title-chick {
+    margin-bottom: 47px;
+}
+  /**********************************/
+
+}

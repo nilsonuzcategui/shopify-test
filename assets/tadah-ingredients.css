@@ -6,13 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
- /* padre de todas las seccines*/
- 
-.father-all {
-    font-family: 'Montserrat', sans-serif;
-}
 
- /**********************************/
  
 .father-all .container-section-ingredients {
     display: flex;
