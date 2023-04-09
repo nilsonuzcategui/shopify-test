@@ -46,7 +46,6 @@
 }
 
 
-
 .father-all .info-variety {
     font-family: 'Montserrat';
     font-style: normal;
@@ -79,6 +78,10 @@
 
 .father-all .container-img-variety {
     padding-top: 69px;
+}
+
+.swiper-wrapper {
+    padding-bottom: 55px;
 }
 /**********************************/
 

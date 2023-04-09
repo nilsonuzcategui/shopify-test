@@ -1,0 +1,67 @@
+{{'tadah-chick.css' | asset_url | stylesheet_tag}}
+
+<div class="father-all">
+    <div class="container-all">
+        <div class="section-chick">
+            <div class="container-info-phrases">
+
+                <div class="title-chick">‘Chick’ out what people are saying</div>
+
+
+                <div class="swiper sliderComment">
+                    <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div>
+                            <p class="coment-text">Even if you’re far away from your favorite falafel stand, you can get your fix in a matter of minutes.” </p>
+                            <p class="autor">- Brian Kateman</p>
+                            <div class="company">
+                                <img class="img-company" src="https://cdn.shopify.com/s/files/1/0740/4139/3426/files/sharktank_logo_1.png?v=1680995833" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div>
+                            <p class="coment-text">“Over 25% of the business’s profits go to organizations that are actively engaged in social change”</p>
+                            <p class="autor">- S.M. Walsh</p>
+                            <div class="company">
+                                <img class="img-company" src="https://cdn.shopify.com/s/files/1/0740/4139/3426/files/sharktank_logo_1.png?v=1680995833" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div>
+                            <p class="coment-text">Even if you’re far away from your favorite falafel stand, you can get your fix in a matter of minutes.” </p>
+                            <p class="autor">- Brian Kateman</p>
+                            <div class="company">
+                                <img class="img-company" src="https://cdn.shopify.com/s/files/1/0740/4139/3426/files/entrepreneur_logo_1.png?v=1680995838" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+  var swiper = new Swiper(".sliderComment", {
+    initialSlide: 1,
+    slidesPerView: "auto",
+    centeredSlides: true,
+    spaceBetween: 135,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    }
+  });
+</script>
