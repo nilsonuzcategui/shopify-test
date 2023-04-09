@@ -26,12 +26,13 @@
 </div>
 
 <style>
-  .swiper {
+  .swiper,
+  .sliderComent {
     width: 100%;
     height: 100%;
   }
 
-  .swiper-slide {
+  .sliderComent .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -40,31 +41,31 @@
     align-items: center;
   }
 
-  .swiper-slide img {
+  .sliderComent .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-  .swiper-slide {
+  .sliderComent .swiper-slide {
     width: 40%;
     color: rgba(0, 0, 0, 0.177);
   }
 
-  .swiper-slide-active {
+  .sliderComent .swiper-slide-active {
     color: rgb(0, 0, 0);
   }
 </style>
 
 <!-- Swiper -->
-<div class="swiper mySwiper">
+<div class="swiper-2 sliderComent">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
       <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Ducimus ab quasi veritatis cupiditate quibusdam eveniet assumenda nihil pariatur, 
-                                                                                                          asperiores recusandae officiis hic esse quia incidunt laborum, quas fuga magni corporis.
+                                                                                                                    asperiores recusandae officiis hic esse quia incidunt laborum, quas fuga magni corporis.
         </p>
         <p>
           <b>- Nilson Uzcátegui</b>
@@ -78,7 +79,7 @@
       <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Ducimus ab quasi veritatis cupiditate quibusdam eveniet assumenda nihil pariatur, 
-                                                                                                          asperiores recusandae officiis hic esse quia incidunt laborum, quas fuga magni corporis.
+                                                                                                                    asperiores recusandae officiis hic esse quia incidunt laborum, quas fuga magni corporis.
         </p>
         <p>
           <b>- Nilson Uzcátegui</b>
@@ -92,7 +93,7 @@
       <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Ducimus ab quasi veritatis cupiditate quibusdam eveniet assumenda nihil pariatur, 
-                                                                                                          asperiores recusandae officiis hic esse quia incidunt laborum, quas fuga magni corporis.
+                                                                                                                    asperiores recusandae officiis hic esse quia incidunt laborum, quas fuga magni corporis.
         </p>
         <p>
           <b>- Nilson Uzcátegui</b>
@@ -106,7 +107,7 @@
       <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Ducimus ab quasi veritatis cupiditate quibusdam eveniet assumenda nihil pariatur, 
-                                                                                                          asperiores recusandae officiis hic esse quia incidunt laborum, quas fuga magni corporis.
+                                                                                                                    asperiores recusandae officiis hic esse quia incidunt laborum, quas fuga magni corporis.
         </p>
         <p>
           <b>- Nilson Uzcátegui</b>
@@ -120,7 +121,7 @@
       <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Ducimus ab quasi veritatis cupiditate quibusdam eveniet assumenda nihil pariatur, 
-                                                                                                          asperiores recusandae officiis hic esse quia incidunt laborum, quas fuga magni corporis.
+                                                                                                                    asperiores recusandae officiis hic esse quia incidunt laborum, quas fuga magni corporis.
         </p>
         <p>
           <b>- Nilson Uzcátegui</b>
@@ -138,7 +139,7 @@
 
 
 <script>
-  var swiper = new Swiper(".mySwiper", {
+  var swiper = new Swiper(".sliderComent", {
     initialSlide: 1,
     slidesPerView: "auto",
     centeredSlides: true,
