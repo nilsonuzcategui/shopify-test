@@ -26,6 +26,14 @@
   .footer-ul-icon li img {
     width: 35px;
   }
+
+  .contenedor-img {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contenedor-img img {
+    width: 15em;
+  }
 </style>
 
 <div style="background-color: #F47D34;">
@@ -50,8 +58,7 @@
     <p style="color: black;">@2022 TaDah Foods All rigths reserved.</p>
   </div>
 
-  <div style="display: flex;
-              justify-content: space-between;">
+  <div class="contenedor-img">
     <div style="display: grid;">
       <img src="{{'burrito-izq.png' | asset_img_url}}">
       <img src="{{'burrito-izq.png' | asset_img_url}}">
