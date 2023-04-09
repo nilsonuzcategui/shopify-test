@@ -35,6 +35,10 @@
       "type": "tadah-one-text-img"
     },
 
+    "tadah-falafull" : {
+      "type": "tadah-falafull"
+    },
+
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -243,6 +247,7 @@
     "tadah-variaty",
     "tadah-chick",
     "tadah-one-text-img",
+    "tadah-falafull",
     "image_banner",
     "rich_text",
     "featured_collection",
